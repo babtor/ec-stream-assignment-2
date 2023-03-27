@@ -85,8 +85,6 @@ main {
 }
 
 .main-text {
-    display: flex;
-    justify-content: center;
     padding-left: 250px;
     font-size: 4rem;
     color: white;
@@ -126,6 +124,7 @@ button {
     justify-content: center;
     height: 90px;
     font-size: 2rem;
+    cursor: pointer;
 }
 
 button:hover {
@@ -135,6 +134,15 @@ button:hover {
 footer {
     background-color: #39445a;
     grid-area: footer;
+}
+
+@media only screen and (max-width: 850px) {
+    .input-box {
+        width: 100%;
+    }
+    .main-text {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 550px) {
