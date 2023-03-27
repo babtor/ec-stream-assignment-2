@@ -88,7 +88,25 @@ main {
     padding-left: 250px;
     font-size: 4rem;
     color: white;
+    animation: flicker 3s infinite alternate;   
 }
+
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #00FFF6,
+        0 0 80px #00E7FF,
+        0 0 90px #009EFF,
+        0 0 100px #009EFF,
+        0 0 150px #009EFF;
+    }
+    20%, 24%, 55% {       
+      text-shadow: none;
+    }
+  }
 
 .input-box {
     background-color: #39445a; opacity: 0.8;
