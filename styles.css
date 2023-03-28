@@ -77,17 +77,43 @@ nav {
 }
     /* Main section */
 main {
-    background-color: #0c192c;
+   /* background-color: #0c192c; */
+   background-image: url(https://wallpaperaccess.com/full/17520.jpg);
+   background-size: cover;
+   -webkit-animation: slidein 100s;
+   animation: slidein 100s;
+
+   -webkit-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+
+   -webkit-animation-direction: alternate;
+   animation-direction: alternate;             
+
     grid-area: main;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+@-webkit-keyframes slidein {
+    from {background-position: top; background-size:3000px; }
+    to {background-position: -100px 0px;background-size:2750px;}
+    }
+    
+    @keyframes slidein {
+    from {background-position: top;background-size:3000px; }
+    to {background-position: -100px 0px;background-size:2750px;}
+    
+    }
+
 .main-text {
     padding-left: 250px;
     font-size: 4rem;
     color: white;
+    font-family: 'Playfair Display', serif;
     animation: flicker 3s infinite alternate;   
 }
 
