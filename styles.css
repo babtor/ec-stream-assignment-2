@@ -184,6 +184,20 @@ button:hover {
 footer {
     background-color: #39445a;
     grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul a {
+    color: white;
+    padding: 30px;
+    font-size: 30px;
 }
 
 @media only screen and (max-width: 850px) {
@@ -194,7 +208,7 @@ footer {
         grid-template-areas: 
         "nav"
         "main"
-        "main";
+        "footer";
     }
     
 
@@ -214,7 +228,7 @@ footer {
         grid-template-areas: 
         "nav"
         "main"
-        "main";
+        "footer";
     }
     /* Navbar meny */
     .toggle-button {
@@ -251,5 +265,4 @@ footer {
     .main-text {
         display: none;
     }
-
 }
