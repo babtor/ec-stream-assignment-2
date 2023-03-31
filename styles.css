@@ -28,7 +28,7 @@ nav {
 }
 
 .site-name {
-    font-size: 2rem;
+    font-size: 1rem;
     margin: .5rem;
     color: white;
     font-family: 'Playfair Display', serif;
@@ -118,6 +118,7 @@ main {
     color: white;
     font-family: 'Playfair Display', serif;
     animation: flicker 3s infinite alternate;   
+    text-shadow: 2px 2px 0px black;
 }
 
 .main-text-sub {
@@ -125,6 +126,7 @@ main {
     color: white;
     padding-left: 250px;
     font-size: 2rem;
+    text-shadow: 2px 2px 0px black;
 }
 
 @keyframes flicker {
@@ -234,6 +236,7 @@ footer ul a {
     .main-text {
         display: none;
     }
+
     .main-text-sub {
         display: none;
     }
