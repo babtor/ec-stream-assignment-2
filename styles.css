@@ -120,6 +120,13 @@ main {
     animation: flicker 3s infinite alternate;   
 }
 
+.main-text-sub {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    padding-left: 250px;
+    font-size: 2rem;
+}
+
 @keyframes flicker {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
       text-shadow:
@@ -227,6 +234,9 @@ footer ul a {
     .main-text {
         display: none;
     }
+    .main-text-sub {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 550px) {
@@ -271,6 +281,9 @@ footer ul a {
     }
 
     .main-text {
+        display: none;
+    }
+    .main-text-sub {
         display: none;
     }
 }
