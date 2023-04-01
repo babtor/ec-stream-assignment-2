@@ -82,16 +82,9 @@ main {
    /* background-color: #0c192c; */
    background-image: url(https://wallpaperaccess.com/full/17520.jpg);
    background-size: cover;
-   -webkit-animation: slidein 30s;
    animation: slidein 30s;
-
-   -webkit-animation-fill-mode: backwards;
    animation-fill-mode: backwards;
-
-   -webkit-animation-iteration-count: infinite;
    animation-iteration-count: infinite;
-
-   -webkit-animation-direction: alternate;
    animation-direction: alternate;             
 
     grid-area: main;
@@ -100,15 +93,11 @@ main {
     align-items: center;
 }
 /* Animations for background */
-@-webkit-keyframes slidein {
-    from {background-position: top; background-size:2000px; }
-    to {background-position: -100px -100px;background-size:2750px;}
-    }
+
     
     @keyframes slidein {
-    from {background-position: top;background-size:2000px; }
-    to {background-position: -100px -100px;background-size:2750px;}
-    
+    from {background-position: top; background-size:3840px; }
+    to {background-position: bottom left; background-size:2750px;}
     }
 /*End of animations */
 
