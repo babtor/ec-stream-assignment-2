@@ -79,13 +79,12 @@ nav {
 }
     /* Main section */
 main {
-   /* background-color: #0c192c; */
-   background-image: url(https://wallpaperaccess.com/full/17520.jpg);
-   background-size: cover;
-   animation: slidein 30s;
-   animation-fill-mode: backwards;
-   animation-iteration-count: infinite;
-   animation-direction: alternate;             
+    background-image: url(https://wallpaperaccess.com/full/17520.jpg);
+    background-size: cover;
+    animation: slidein 45s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;             
 
     grid-area: main;
     display: flex;
@@ -99,6 +98,7 @@ main {
     from {background-position: top; background-size:3840px; }
     to {background-position: bottom left; background-size:2750px;}
     }
+
 /*End of animations */
 
 .main-text {
