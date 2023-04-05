@@ -174,11 +174,12 @@ footer ul a {
     }
 
     .main-text-sub {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .text-container {
         width: 100%;
+        padding-top: 50px;
     }
 }
 
@@ -225,6 +226,7 @@ footer ul a {
     }
     .main-text-sub {
         padding: 30px;
+        font-size: 1.5rem;
     }
 
     .text-container {
