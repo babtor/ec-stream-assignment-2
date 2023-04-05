@@ -81,8 +81,8 @@ nav {
 main {
     background-image: url(https://wallpaperaccess.com/full/17520.jpg);
     background-size: cover;
-    animation: slidein 45s;
-    animation-fill-mode: backwards;
+    animation: slidein 15s;
+    animation-fill-mode: none;
     animation-iteration-count: infinite;
     animation-direction: alternate;             
 
@@ -96,7 +96,7 @@ main {
     
     @keyframes slidein {
     from {background-position: top; background-size:3840px; }
-    to {background-position: bottom left; background-size:2750px;}
+    to {background-position: bottom -100px; background-size:2750px;}
     }
 
 /*End of animations */
