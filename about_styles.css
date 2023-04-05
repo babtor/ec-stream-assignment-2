@@ -126,7 +126,7 @@ width: 60%;
     font-size: 2rem;
     text-shadow: 2px 2px 0px black;
     padding: 100px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 
@@ -169,16 +169,12 @@ footer ul a {
     }
     
 
-    .input-box {
-        width: 100%;
-    }
-
     .main-text {
         display: none;
     }
 
     .main-text-sub {
-        display: none;
+        font-size: 1.5rem;
     }
 
     .text-container {
@@ -223,15 +219,12 @@ footer ul a {
         display: flex;
     }
 
-    .input-box {
-        width: 100%;
-    }
-
     .main-text {
         display: none;
+
     }
     .main-text-sub {
-        display: none;
+        padding: 30px;
     }
 
     .text-container {
